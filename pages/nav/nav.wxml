@@ -1,0 +1,120 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+            <!-- // 推荐 -->
+                  <!-- 1.0 swiper区 -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                  <swiper indicator-dots="{{indicatorDots}}"
+                     autoplay="{{autoplay}}" 
+                     interval="{{interval}}" 
+                     duration="{{duration}}"
+                  >
+                     <block wx:for="{{imgUrls}}" wx:key="*this">
+                        <swiper-item>
+                           <image src="{{item}}" class="slide-image" width="100%" height="150"/>
+                        </swiper-item>
+                     </block>
+                  </swiper>
+                  <!-- 2.0content区 -->
+                  <scroll-view>
+                     <view class='box' wx:for="{{feed}}" wx:key="item.question_id">
+                        <view class='user'>
+                           <view class='user-img'><image src='{{item.feed_source_img}}'></image></view>
+                           <view class='text'>{{item.feed_source_name}}</view>
+                           <view class='more'><image src='../../images/more.png'></image></view>
+                        </view>
+                     <view class='question' bindtap='toQuestion'>{{item.question}}</view>
+                     <view class='description' bindtap='toAnswer'>
+                        <text>
+                        {{item.answer_ctnt}}
+                        </text>
+                     </view>
+                     <view class='concern'>{{item.good_num}}赞同 | {{item.comment_num}}评论 | 关注问题 </view>
+                     </view>
+                  </scroll-view>
+               </view>
+            <!-- 圆桌 -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                  <!-- //九宫格 -->
+                  <view class="page">
+                     <view class="page__bd">
+                        <view class="weui-grids">
+                              <block wx:for="{{grids}}"  wx:key="item.icon_id">
+                                 <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='{{item.icon_url}}' />
+                                    <view class="weui-grid__label">{{item.icon_name}}</view>
+                                 </navigator>
+                              </block>
+                        </view>
+                     </view>
+                  
+                  
+                  </view>
+                  <!-- 图文 -->
+                <navigator url="../question/question" class="weui-media-box weui-media-box_appmsg"                hover-class="weui-cell_active" wx:for= "{{rangs}}" wx:key="item.rang_id">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{item.rang_url}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">{{item.rang_name}}</view>
+                        <view class="weui-media-box__desc">{{item.rang_content}}</view>
+                    </view>
+                </navigator>
+                </view>
+                <!-- //热门 -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                  <!-- // -->
+                  <view class="container">
+                        <view class='item' wx:for="{{hots}}" wx:key="item.hot_id" >
+                           <view class='imginfo'>
+                              <image src="{{item.hot_url}}"></image>
+                              <view class='info'>{{item.hot_name}}</view>
+                           </view>
+                           <view class='uerinfo'>
+                              <view class='userimg'>
+                                 <image src='{{item.user_url}}'></image>
+                                 <view class='username'>{{item.user_name}}</view>
+                              </view> 
+                              <view class='tagclick' style="color:{{item.color}}">
+                                 <image src='../../images/heart.png' wx:if="{{item.collected ==1}}" catchtap='addNum' data-index='{{index}}'></image>
+                                  <image src='../../images/heart2.png' wx:else catchtap='addNum' data-index='{{index}}'></image>
+                                 {{item.hot_num}}
+                              </view>
+                           </view>
+                        </view>
+                     </view>
+                </view>
+                <!-- //收藏 -->
+               <view class="weui-tab__content" hidden="{{activeIndex != 3}}">
+                  <view class='collent'>
+                     <view class="intro">今天也要元气满满哦！！</view>
+                     <video src='https://video.hlwidc.com/QQVideo/play/vid/m06145psexs.html'
+                     controls='true'
+                     ></video>
+                  </view>
+                   <view class='collent'>
+                     <view class="intro">天天妒英才！面筋哥！</view>
+                     <video src='https://video.hlwidc.com/QQVideo/play/vid/m06145psexs.html'
+                     controls='true'
+                     ></video>
+                  </view>
+                   <view class='collent'>
+                     <view class="intro">今天也要元气满满哦！！</view>
+                     <video src='https://imgcache.qq.com/tencentvideo_v1/player/TPout.swf?max_age=86400&v=20140714'
+                     controls='true'
+                     ></video>
+                  </view>
+               </view>
+            </view>
+        </view>
+    </view>
+</view>

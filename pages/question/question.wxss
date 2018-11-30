@@ -1,0 +1,154 @@
+/* pages/question/question.wxss */
+.container {
+   padding: 0;
+} 
+.answer-feed {
+    padding: 0;
+    font-size: 14rpx;
+    background: #F0F4F3;
+    color: #000;
+}
+.question-wrp{
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #bebebe;
+}
+.question-item{
+    width: 710rpx;
+    padding: 40rpx 20rpx 10rpx;
+    background: #fff;
+    position: relative;
+}
+.quesImg {
+   position: absolute;
+   right: 19px;
+   bottom: 50px;
+}
+.quesImg image {
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+}
+.question-item .que-tag .tag{
+    height: 28rpx;
+    padding: 15rpx 20rpx;
+    border-radius: 28rpx;
+    margin: 0 10rpx;
+    background: #EEF5F8;
+    color: #2186E0;
+    font-size: 28rpx;
+    vertical-align: middle;
+}
+.question-item .que-title{
+    padding: 40rpx 20rpx 30rpx;
+    font-size: 38rpx;
+}
+.question-item .que-content{
+    padding: 0 20rpx;
+    font-size: 26rpx;
+}
+.question-item .que-follow{
+    margin: 20rpx;
+    height: 68rpx;
+}
+.question-item .que-follow view{
+    display: inline-block;
+    margin: 0 40rpx 0 0;
+}
+
+.question-item .que-follow image{
+    width: 50rpx;
+    height: 50rpx;
+    margin: 0 10rpx 0 0;
+    vertical-align: middle;
+}
+.question-item .que-follow .left{
+    float: left;
+    padding: 10rpx 0;
+}
+.question-item .que-follow .left text{
+    color: #AFAFAF;
+    height: 50rpx;
+    vertical-align: middle;
+    padding: 18rpx 0;
+    font-size: 24rpx;
+}
+.question-item .que-follow .right{
+    float: right;
+    padding: 20rpx 55rpx;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 26rpx;
+    margin: 0;
+    margin-left: 10px;
+}
+.que-operate{
+    width: 750rpx;
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    color: #889091;
+    vertical-align: middle;
+    background: #ffffff;
+}
+.que-operate .flex-item{
+    padding: 20rpx 0;
+    font-size: 26rpx;
+}
+.que-operate .invite{
+    border-right: solid 2px #ebebeb;
+}
+.que-operate image{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin: 0 20rpx 0 0;
+}
+.invite {
+   border-bottom: 1px solid #dcdcdc;
+}
+.item {
+   width: 100%;
+   /* height: 80px; */
+   border-bottom:1px solid #dcdcdc
+}
+.item .item_img {
+   float: left;
+   margin-left: 10px;
+   margin-top: 15px;
+}
+.item_img image {
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+}
+.item .item_info {
+   margin-left: 60px;
+}
+.item_info .info_name {
+   font-size: 16px;
+   padding-top: 10px;
+   margin-left: 10px;
+}
+.info_content {
+   font-size: 11px;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: #cccc;
+}
+.info_name text {
+   font-size: 12px;
+   padding-left:20px;
+}
+.right image {
+   width: 50px;
+   height: 50px;
+}
+.right .makefouse {
+   width:60px;
+   height: 40px;
+   background-color: green
+}
+
+
+
+
+

@@ -1,0 +1,82 @@
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-navbar {
+   background: skyblue;
+}
+.weui-form-preview {
+   background-color:#FFDEAD
+}
+.weui-tab__content{
+ width: 100%;
+ overflow: hidden;
+}
+.header {
+   width: 100%;
+   height: 40px;
+   line-height: 40px;
+   background:rgba(0, 0, 0, .1);
+}
+.header .header_left {
+   float: left;
+   font-size: 14px;
+   margin-left: 10px;
+}
+.header .header_right {
+   float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.header_right image {
+   width: 30px;
+   height: 30px;
+}
+.item {
+   width: 100%;
+   height: 80px;
+   border-bottom:1px solid #dcdcdc
+}
+.item .item_img {
+   float: left;
+   margin-left: 10px;
+   margin-top: 15px;
+}
+.item_img image {
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+}
+.item .item_info {
+   margin-left: 60px;
+}
+.item_info .info_name {
+   font-size: 16px;
+   padding-top: 10px;
+   margin-left: 10px;
+}
+.info_content {
+   font-size: 11px;
+   margin-left: 10px;
+   margin-top: 5px;
+   color: #cccc;
+}
+.weui-form-preview__value_in-hd {
+   color: red;
+}
+.page {
+   margin-bottom: 20px;
+}
+.notice_list {
+   padding: 5px 20px;
+   border:1px solid #cccc;
+   display: inline-block;
+   border-radius: 30px;
+   margin: 5px 8px;
+   font-size: 14px;
+   color: white;
+}

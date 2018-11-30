@@ -1,0 +1,90 @@
+/**index.wxss**/
+.weui-search-bar {
+   background-color: #0068C4;
+   box-sizing: border-box;
+   margin-top:-1px;
+   width: 100%;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.searchbar-result {
+   position: absolute;
+   z-index: 2;
+   width: 100%;
+}
+.weui-search-bar__cancel-btn {
+   color:black;
+   font-size: 16px;
+}
+.box {
+  width: 100%;
+  height: 180px;
+  margin-top: 8px;
+  box-shadow: 1px 1px 3px #cccc;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+.box .user {
+   width: 100%;
+   height: 35px;
+   background-color:white;
+}
+.user .user-img {
+   width: 35px;
+   height: 35px;
+   margin-left: 10px;
+   float: left;
+}
+.user-img image {
+   width: 35px;
+   height: 35px;
+   border-radius: 35px;
+ 
+}
+.text {
+   color: black;
+   float: left;
+   font-size: 12px;
+   margin-left: 5px;
+   line-height: 35px;
+}
+.more {
+   float: right;
+   width:35px;
+   height: 35px;
+   margin-right: 5px;
+}
+.more image {
+   width:35px;
+   height: 35px;  
+}
+.question {
+   font-size: 16px;
+   color: black;
+   line-height: 25px;
+   padding: 5px;
+}
+.description {
+   height: 85px;
+   width: 98%;
+   overflow: hidden;
+   font-size: 14px;
+   color:rgb(16, 16, 17);
+   margin-left:1%;
+   margin-bottom: 5px;
+   margin-top:-16px;
+}
+.concern {
+   font-size: 14px;
+   color: #cccc;
+   line-height: 20px;
+   padding: 5px;
+}

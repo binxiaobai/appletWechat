@@ -1,0 +1,16 @@
+.box {
+   height: 200px;
+}
+.img {
+   padding-bottom: 15px;
+}
+
+.big {
+   height: 200px;
+   width: 100%;
+   position: absolute;
+   bottom:10px;
+   left: 50%;
+   margin-left: -150px;
+   z-index: 3;
+}

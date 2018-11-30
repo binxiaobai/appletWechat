@@ -1,0 +1,145 @@
+<!-- <view class='header'>
+   <view class='all' style='background-color:{{active}}'>全部</view>
+   <view class='kongfu'>武侠</view>
+   <view class='sky'>仙侠</view>
+   <view class='love'>言情</view>
+   <view class='other'>其他</view>
+</view> -->
+<!-- // -->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+         <!-- /全部/ -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                  <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1005235275/150"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>皇帝心腹：明朝大奸臣</view>
+      <view class='bookAbout'>群臣：请陛下诛灭王离这个大奸臣！王离：何为奸臣？不与尔等为伍便为奸</view>
+      <view class='bookWriter'>
+        <view class='writeName'>李狗蛋</view>
+        <view class='renew'>
+         <view class='drec'>两宋元明</view>
+         <view class='renum'>日更3千+</view>
+        </view>
+      </view>
+   </view>
+</view>
+        <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1013011570/150"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>重生商海</view>
+      <view class='bookAbout'>拯救这条咸鱼人生</view>
+      <view class='bookWriter'>
+        <view class='writeName'>李狗蛋</view>
+        <view class='renew'>
+         <view class='drec'>两宋元明</view>
+         <view class='renum'>日更3千+</view>
+        </view>
+      </view>
+   </view>
+
+</view>        
+                </view>
+                <!-- /武侠/ -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                  <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1013248776/150"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>青梅仙道</view>
+      <view class='bookAbout'>一条咸鱼穿越到了洪荒，发现自己居然成了命中注定将陨落于大劫之中的玄龟</view>
+      <view class='bookWriter'>
+        <view class='writeName'>陈二狗</view>
+        <view class='renew'>
+         <view class='drec'>仙侠奇缘</view>
+         <view class='renum'>日更5千+</view>
+        </view>
+      </view>
+   </view>
+</view>  
+               <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1013248776/150"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>青梅仙道</view>
+      <view class='bookAbout'>一条咸鱼穿越到了洪荒，发现自己居然成了命中注定将陨落于大劫之中的玄龟</view>
+      <view class='bookWriter'>
+        <view class='writeName'>陈二狗</view>
+        <view class='renew'>
+         <view class='drec'>仙侠奇缘</view>
+         <view class='renum'>日更5千+</view>
+        </view>
+      </view>
+   </view>
+
+</view>
+                </view>
+                <!-- 、仙侠、 -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                  <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1013192051/90"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>我命由我：大明乱贼</view>
+      <view class='bookAbout'>北边鞑子年年入侵，东边倭寇肆虐，西方强盗也已叩关，东北女真渐有崛起之势。</view>
+      <view class='bookWriter'>
+        <view class='writeName'>陈二狗</view>
+        <view class='renew'>
+         <view class='drec'>两宋元明</view>
+         <view class='renum'>日更3千+</view>
+        </view>
+      </view>
+   </view>
+
+</view>
+                
+                </view>
+                <!-- 、言情、 -->
+                 <view class="weui-tab__content" hidden="{{activeIndex != 3}}">
+                     <view class='type'>
+  <view class='typeImg'>
+   <image src="https://bookcover.yuewen.com/qdbimg/349573/1010011232/150"></image>
+ </view>
+   <view class='typeInfo'>
+      <view class='bookName'>白狼公孙</view>
+      <view class='bookAbout'>群臣：请陛下诛灭王离这个大奸臣！王离：何为奸臣？不与尔等为伍便为奸</view>
+      <view class='bookWriter'>
+        <view class='writeName'>李狗蛋</view>
+        <view class='renew'>
+         <view class='drec'>两宋元明</view>
+         <view class='renum'>日更3千+</view>
+        </view>
+      </view>
+   </view>
+
+</view>
+                 </view>
+                 <!-- 、其他、 -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 4}}">
+                     什么马，什么梅，什么冬梅
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+

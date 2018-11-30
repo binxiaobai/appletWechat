@@ -1,0 +1,33 @@
+<view>
+   <view class='item' bindtap='torobot'>
+      <view class='item_img'>
+         <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+      </view>
+      <view class='item_info'>你好~你好，你好呀</view>
+   </view>
+   <!-- // -->
+   <view class='item'>
+      <view class='item_img'>
+         <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3597422895,1543873891&fm=26&gp=0.jpg'></image>
+      </view>
+      <view class='item_info'>好无聊</view>
+   </view>
+   <view class='item'>
+      <view class='item_img'>
+         <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2686229074,279277785&fm=26&gp=0.jpg'></image>
+      </view>
+      <view class='item_info'>玩游戏了</view>
+   </view>
+   <view class='item'>
+      <view class='item_img'>
+         <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+      </view>
+      <view class='item_info'>在干嘛？</view>
+   </view>
+   <view class='item'>
+      <view class='item_img'>
+         <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3095770922,4104149060&fm=26&gp=0.jpg'></image>
+      </view>
+      <view class='item_info'>去吃饭</view>
+   </view>
+</view>

@@ -1,0 +1,55 @@
+{
+  "pages":[
+     "pages/index/index",
+      "pages/bookrack/bookrack",
+      
+      "pages/answer/answer",
+     "pages/chat/chat",
+     "pages/info/info",
+     "pages/my/my",
+    "pages/nav/nav",
+    "pages/logs/logs",
+    "pages/question/question",
+    "pages/photo/photo",
+    "pages/robot/robot"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0068C4",
+    "navigationBarTitleText": "石头缝",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "/images/index.png",
+      "selectedIconPath": "/images/index_focus.png"
+    },
+    {
+      "pagePath": "pages/nav/nav",
+      "text": "Nav",
+      "iconPath": "/images/discovery.png",
+      "selectedIconPath": "/images/discovery_focus.png"
+   },
+   {
+      "pagePath": "pages/info/info",
+      "text": "Info",
+      "iconPath": "/images/ring.png",
+      "selectedIconPath": "/images/ring_focus.png"
+   },
+   {
+      "pagePath": "pages/chat/chat",
+      "text": "Chat",
+      "iconPath": "/images/chat.png",
+      "selectedIconPath": "/images/chat_focus.png"
+   },
+   {
+      "pagePath": "pages/my/my",
+      "text": "My",
+      "iconPath": "/images/burger.png",
+      "selectedIconPath": "/images/burger_focus.png"
+   }]
+  }
+}

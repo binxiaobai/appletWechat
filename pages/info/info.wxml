@@ -1,0 +1,189 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                 <view class='header'>
+                     <view class='header_left'>6条未读信息</view>
+                     <view class='header_right'>
+                        <image src="../../images/allread.png"></image>
+                     </view>
+                 </view>
+                 <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">Rebecca  回答了问题</view>
+                        <view class="info_content">java如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                 <!-- // -->
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">Rebecca  回答了问题</view>
+                        <view class="info_content">java如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">bingo  回答了问题</view>
+                        <view class="info_content">java如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3597422895,1543873891&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">Rebecca  回答了问题</view>
+                        <view class="info_content">c++如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3095770922,4104149060&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">bingo  回答了问题</view>
+                        <view class="info_content">c#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=194225511,2795185520&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">bingo  回答了问题</view>
+                        <view class="info_content">python如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                  <view class='item'>
+                     <view class='item_img'>
+                        <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2753418568,2820801190&fm=26&gp=0.jpg'></image>
+                     </view>
+                     <view class='item_info'>
+                        <view class="info_name">bingo  回答了问题</view>
+                        <view class="info_content">javascript如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+                     </view>
+                 </view>
+                 <!-- // -->
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                  <view class="page">
+                     <view class="page__bd">
+                        <view class="weui-form-preview">
+                              <view class="weui-form-preview__hd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏金额</view>
+                                    <view class="weui-form-preview__value_in-hd">¥2000.00</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__bd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏人:</view>
+                                    <view class="weui-form-preview__value">陈陈二狗本人</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">问题:</view>
+                                    <view class="weui-form-preview__value">如何快速、优雅的打一个蛋？</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">回复:</view>
+                                    <view class="weui-form-preview__value">你的电动打蛋机的计划真的是太棒了，让我的生活格调提升了一个台阶</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__ft" bindtap='retback'>
+                                 <navigator url="#" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">致谢</navigator>
+                              </view>
+                        </view>
+                        </view>
+                  </view>
+                  <!-- // -->
+                   <view class="page">
+                     <view class="page__bd">
+                        <view class="weui-form-preview">
+                              <view class="weui-form-preview__hd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏金额</view>
+                                    <view class="weui-form-preview__value_in-hd">¥100.00</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__bd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏人:</view>
+                                    <view class="weui-form-preview__value">陈陈二狗本人</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">问题:</view>
+                                    <view class="weui-form-preview__value">如何快速、优雅的打一个蛋？</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">回复:</view>
+                                    <view class="weui-form-preview__value">你的电动打蛋机的计划真的是太棒了，让我的生活格调提升了一个台阶</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__ft" bindtap='retback'>
+                                 <navigator url="#" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" >致谢</navigator>
+                              </view>
+                        </view>
+                        </view>
+                  </view>
+                  <!-- // -->
+                   <view class="page">
+                     <view class="page__bd">
+                        <view class="weui-form-preview">
+                              <view class="weui-form-preview__hd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏金额</view>
+                                    <view class="weui-form-preview__value_in-hd">¥550.00</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__bd">
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">打赏人:</view>
+                                    <view class="weui-form-preview__value">陈陈二狗本人</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">问题:</view>
+                                    <view class="weui-form-preview__value">如何快速、优雅的打一个蛋？</view>
+                                 </view>
+                                 <view class="weui-form-preview__item">
+                                    <view class="weui-form-preview__label">回复:</view>
+                                    <view class="weui-form-preview__value">你的电动打蛋机的计划真的是太棒了，让我的生活格调提升了一个台阶</view>
+                                 </view>
+                              </view>
+                              <view class="weui-form-preview__ft" bindtap='retback'>
+                                 <navigator url="#" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" >致谢</navigator>
+                              </view>
+                        </view>
+                        </view>
+                  </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                  <scroll-view>
+                     <view class='notice'>
+                      <view class='notice_list' wx:for="{{conlist}}" style='font-size:{{item.con_fsize}}; background-color:#{{item.con_bgcolor}}; color:{{item.con_color}}' wx:key="item.con_id">
+                        {{item.con_topic}}
+                        </view>
+                     </view>
+                  </scroll-view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+ <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 400px;  "></camera>
+   <button type="primary" bindtap="takepho">拍照</button>
+   <scroll-view class='box' scroll-y="true">
+      <view class='img'>
+      <image wx:for="{{userInfo}}" src="{{item}}" style="width:30%;height:120px; margin-left:2.5%;display:inline-block;" wx:key="*this" bindtap='makebig' data-index='{{index}}'></image>
+      </view>
+      <image class='big' wx:for="{{bigimg}}" src="{{item}}" wx:key="*this" bindtap='clearbig'></image>
+   </scroll-view>

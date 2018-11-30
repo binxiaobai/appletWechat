@@ -1,0 +1,63 @@
+
+<view class='my'>
+   <view class='myheader'>
+      <view class='myimage'>
+         <image src="{{userImg}}" bindtap='chengeimg'></image>
+      </view>
+      <view class='myname'>
+         <view class='name'>{{userName}}</view>
+         <view class='myinfo'>不要问我从哪里来，我的故乡在远方！</view>
+      </view>
+   </view>
+   <!-- //列表 -->
+   <view class='box'>
+      <view class='mylist top'>
+         <view class='listimg'>
+            <image src="../../images/eye.png"></image>
+         </view>
+         <view class='listinfo'>我的关注</view>
+      </view>
+      <view class='mylist' bindtap='takema'>
+         <view class='listimg'>
+            <image src="../../images/index.png"></image>
+         </view>
+         <view class='listinfo'>扫一扫</view>
+      </view>
+      <view class='mylist'>
+         <view class='listimg'>
+            <image src="../../images/star.png"></image>
+         </view>
+         <view class='listinfo'>我的收藏</view>
+      </view>
+      <view class='mylist'>
+         <view class='listimg'>
+            <image src="../../images/draft.png"></image>
+         </view>
+         <view class='listinfo'>我的草稿</view>
+      </view>
+      <view class='mylist'>
+         <view class='listimg'>
+            <image src="../../images/recent.png"></image>
+         </view>
+         <view class='listinfo'>最近浏览</view>
+      </view>
+      <view class='mylist' bindtap='tobookrack'>
+         <view class='listimg'>
+            <image src="../../images/book.png"></image>
+         </view>
+         <view class='listinfo'>我的书架</view>
+      </view>
+      <view class='mylist'>
+         <view class='listimg'>
+            <image src="../../images/live.png"></image>
+         </view>
+         <view class='listinfo'>我的Live</view>
+      </view>
+       <view class='mylist' bindtap='totakephoto'>
+            <view class='listimg'>
+               <image src="../../images/live.png"></image>
+            </view>
+            <view class='listinfo'>拍照</view>
+      </view>
+   </view>
+</view>
