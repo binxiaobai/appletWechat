@@ -1,8 +1,8 @@
 {
   "pages":[
+      "pages/person/person",
      "pages/index/index",
       "pages/bookrack/bookrack",
-      
       "pages/answer/answer",
      "pages/chat/chat",
      "pages/info/info",
@@ -12,6 +12,7 @@
     "pages/question/question",
     "pages/photo/photo",
     "pages/robot/robot"
+   
    
   ],
   "window":{

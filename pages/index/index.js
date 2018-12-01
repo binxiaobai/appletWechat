@@ -7,6 +7,11 @@ Page({
       feed: [],
       feed_lenght: 0
    },
+   toperson: function () {
+      wx.navigateTo({
+         url: '../person/person',
+      })
+   },
    toQuestion: function () {
       wx.navigateTo({
          url: '../question/question',
