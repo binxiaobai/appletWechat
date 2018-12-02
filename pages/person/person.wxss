@@ -12,11 +12,14 @@
    height: 300px;
 }
 .per_info {
-   width: 100%;
+   width: 60%;
    position: relative;
    top:20px;
-   left: 0;
+   left: 20%;
    text-align: center;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
 }
 .per_info image {
    width:60px;
@@ -52,7 +55,6 @@
   padding-top: 8px;
   box-shadow: 1px 1px 3px #cccc;
   border-bottom: 1px solid #dcdcdc;
-  padding-bottom: 5px;
   background-color: white;
 }
 .box1 .user {
@@ -102,7 +104,7 @@
    font-size: 14px;
    color:rgb(16, 16, 17);
    margin-left:1%;
-   margin-bottom: 5px;
+   margin-bottom: -12px;
    margin-top:-16px;
 }
 .concern {
@@ -110,4 +112,22 @@
    color: #cccc;
    line-height: 20px;
    padding: 5px;
+}
+.zhuanfa, .pinglun, .dianzan {
+   width: 33.33%;
+   text-align: center;
+   display: inline-block;
+   line-height: 20px;
+   padding:10px 0;
+   border: 1px solid #dcdcdc;
+   box-sizing: border-box;
+}
+.art {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+.artcont {
+   font-size: 12px;
+   
 }

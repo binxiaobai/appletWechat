@@ -10,7 +10,9 @@ Page({
       length: 0,
       reviewflag: false,
       concern:'十 关注',
-      loveimg: '../../images/heart2.png'
+      loveimg: '../../images/heart2.png',
+      question: '',
+      img:''
    },
    //事件处理函数
    toQuestion: function () {
@@ -36,14 +38,18 @@ Page({
          reviewflag: true
       })
    },
-   onLoad: function () {
-      console.log('onLoad')
+   onLoad: function (option) {
       var that = this
+      var  question= option.question
+      var img = option.img
+      that.setData({
+         question: question,
+         img: img
+      })
       //调用应用实例的方法获取全局数据
       wx.getUserInfo({
          success: function (res) {
             let header = res.userInfo.avatarUrl
-            console.log(header)
             var nickName = res.userInfo.nickName
             that.setData({
                userInfo: header,

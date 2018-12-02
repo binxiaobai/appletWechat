@@ -27,21 +27,7 @@
                 <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
                 
                  <scroll-view class='scr_height' style="height:{{barPosition}}px" scroll-y="true">
-                      <view class='box1'>
-                        <view class='user' bindtap='toperson'>
-                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
-                        <view class='text'>bingobingo </view>
-                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
-                        </view>
-                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
-                        <view class='description' bindtap='toAnswer'>
-                           <text>
-                           asfasfasfasf按时发顺丰
-                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
-                           </text>
-                        </view>
-                        <view class='concern'>1231赞同 | 12412评论 </view>
-                      </view>
+                   
                       <!-- // -->
                       <view class='box1'>
                         <view class='user' bindtap='toperson'>
@@ -105,8 +91,154 @@
                       </view>
                 </scroll-view>
                 </view>
-                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">选项二的内容</view>
-                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">选项三的内容</view>
+                <!-- /创作/ -->
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                     <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+                         <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+                         <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+                         <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+                         <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+
+                         <view class='box1'>
+                        <view class='user' bindtap='toperson'>
+                        <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
+                        <view class='text'>bingobingo </view>
+                        <!-- <view class='more'><image src='../../images/more.png'></image></view> -->
+                        </view>
+                        <view class='question' bindtap='toQuestion'>太阳为什么从西边升起的可能性</view>
+                        <view class='description' bindtap='toAnswer'>
+                           <text>
+                           asfasfasfasf按时发顺丰
+                           啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
+                           </text>
+                        </view>
+                        <view class='concern'>
+                         <view class='zhuanfa'>转发:200</view>
+                         <view class='pinglun'>评论：1000</view>
+                         <view class='dianzan'>点赞：100</view>
+                         </view>
+                      </view>
+                
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                 <view class='art'>关于梦遥不可及</view>
+                  <text class='artcont'>想象里就是这样，阳光晴好的下午，窗外四四方方的风景，红瓦鲜艳，蓝天澄澈。
+
+坐在桌前，写一些并不寄出去的信。
+
+曾经，我为一个人写了整整两年，少则寥寥数语，多则长篇大论，本子堆了很高，信塞了小半个收纳箱，然后我一点点，收好，放到回忆深处。
+
+有时候会忽然有一种温柔而落寞的孤独感，只有自己的灵魂浅浅摇曳在世界表层一片五彩斑斓的混沌里，茫然漂泊，无可附依。
+
+一丝无可捉摸的念想，想写点什么给你，然后心里长长的叹息，牵扯出寂寥的疑惑：你是谁呢？脑海里只想得出一个模糊的剪影，好像从头到尾都只是自己默默的幻影。
+
+我不擅长伤感，只是想到，有一个为月色写诗的流浪者。
+
+分享是世界上一件非常有趣的事情，不管内容是忧郁亦或悲伤。想了想又抹去，假装不动声色地日复一日。
+
+然后世界旋转，周而复始。
+
+我自以为的浪漫把生活浓缩成一座旋转木马，人在起伏的马背上，在奔忙，却在原地，在一段永不可逾越的距离。
+
+我不愿意讲这是谁和谁的故事，所谓的你我依然，从来就是这样。无意而生的热烈，转瞬即逝的光影，永恒的爱情藏在永恒的孤独里，永不熄灭的热忱只用来作寻路的火把。
+
+只是无处安放。
+
+我最后想了想，可能懦弱的人才会为高尚吟唱。
+
+探索与自省一直产生更多的问题，除非，问题的答案就是问题本身。
+                   </text>          
+                </view>
             </view>
         </view>
     </view>

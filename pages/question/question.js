@@ -7,7 +7,8 @@ Page({
       userInfo: {},
       concern:'关注',
       con_color:'#52C980',
-      flag: 1
+      flag: 1,
+      fromquest:''
    },
    // 关注
    concern: function () {
@@ -32,10 +33,14 @@ Page({
          url: '../answer/answer'
       })
    },
-   onLoad: function () {
-      console.log('onLoad')
+   onLoad: function (option) {
       var that = this
       //调用应用实例的方法获取全局数据
+      var fromquest = option.question
+      console.log(fromquest)
+      that.setData({
+         fromquest: fromquest
+      })
       wx.getUserInfo({
          success: function (e) {
             let userInfo = e.userInfo.avatarUrl

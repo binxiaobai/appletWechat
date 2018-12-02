@@ -1,0 +1,76 @@
+<view class='box'>
+   <view class="header">
+   <text>头像</text>
+   <image src="{{headerImg}}" bindtap='changeImg'></image>
+   </view>
+
+   <view class="item" bindtap='changeName'>
+   <text>昵称</text>
+   <view class='right'>{{name}}</view>
+   </view>
+   <view class="item" bindtap='changeIndi'>
+   <text>个性签名</text>
+   <view class='right1'>{{indi}}</view>
+   </view>
+   <view class="item">
+   <text>生日</text>
+   <view class='right'>5月20日</view>
+   </view>
+   <view class="item">
+   <text>生活城市</text>
+   <view class='right'>鸟不拉屎的天堂</view>
+   </view>
+ <!-- /输入昵称文本框/ -->
+ <view class='textbox' wx:if="{{nameFlag}}"> 
+   <view class='text'>
+      <view class="weui-cells__title">昵称</view>
+         <view class="weui-cells weui-cells_after-title">
+               <view class="weui-cell weui-cell_input">
+                  <view class="weui-cell__bd">
+                     <input class="weui-input" value="{{name}}" bindinput='newName' />
+                  </view>
+               </view>
+         </view>
+            <view class="weui-btn-area">
+               <button class="weui-btn" type="primary" bindtap="closeTips">保存</button>
+         </view>
+         </view>
+    </view>
+  <!-- /输入个性签名/-->
+    <view class='textbox' wx:if="{{indiFlag}}"> 
+ <view class='text'>
+    <view class="weui-cells__title">个性签名</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" value="{{indi}}" style="height: 3.3em" bindinput='newIndi'/>
+                    <view class="weui-textarea-counter">0/200</view>
+                </view>
+            </view>
+        </view>
+         <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="closeTips1">保存</button>
+        </view>
+   </view>
+ </view>
+
+    <!-- <view class="weui-cells__title">生日</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入文本" />
+                </view>
+            </view>
+        </view> 
+        
+    <view class="weui-cells__title">生活城市</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入文本" />
+                </view>
+            </view>
+        </view>  -->
+    
+      
+</view>

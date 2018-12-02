@@ -1,12 +1,13 @@
 {
   "pages":[
-      "pages/person/person",
+      "pages/my/my",
      "pages/index/index",
+      "pages/person/person",
+     "pages/userinfo/userinfo",
       "pages/bookrack/bookrack",
       "pages/answer/answer",
      "pages/chat/chat",
      "pages/info/info",
-     "pages/my/my",
     "pages/nav/nav",
     "pages/logs/logs",
     "pages/question/question",

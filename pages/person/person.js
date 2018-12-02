@@ -8,7 +8,7 @@ Page({
       sliderOffset: 0,
       sliderLeft: 0,
       barPosition: "",
-      bgImg:'../../images/icon8.jpg',
+      bgImg:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2686229074,279277785&fm=26&gp=0.jpg',
       heImg:'../../images/icon8.jpg'
    },
    //改变头像
@@ -54,8 +54,14 @@ Page({
             })
          }
    },
-   onLoad: function () {
+   onLoad: function (option) {
       var that = this;
+      // /、、接收来自index的值
+      var header = option.img;
+      console.log(header)
+      that.setData({
+         heImg :header
+      })
       wx.getSystemInfo({
          success: function (res) {
             that.setData({
@@ -70,7 +76,8 @@ Page({
             console.log(res)
             var hight = 750/(res.windowHeight);
             var client = hight * res.windowHeight;
-            var client = client - 200;
+			var nex = 2*(res.screenWidth-375);
+            var client = client-200+nex;
             that.setData({
                barPosition: client
             })

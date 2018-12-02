@@ -10,7 +10,7 @@
                 <text class="tag">文学</text>
             </view>
             <view class="que-title">
-                选择 Kindle 而不是纸质书的原因是什么？
+                {{fromquest}}
             </view>
             <view class="que-content">
                 WEB前端*永远保持骚气*只想安安静静看书的汉子

@@ -1,13 +1,13 @@
 <!--answer.wxml-->
 <view class="container">
     <view class="question" bindtap="toQuestion">
-        <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？</text>
+        <text class="question-title">{{question}}</text>
     </view>
     <view class="answerer-wrp">
         <view class="bg-half"></view>
         <view class="answerer flex-wrp">
             <view class="avatar">
-                <image src="../../images/icon9.jpeg"></image>
+                <image src="{{img}}"></image>
             </view>
             <view class="answerer-info">
                 <text class="answerer-name">bingo</text>

@@ -7,19 +7,26 @@ Page({
       feed: [],
       feed_lenght: 0
    },
-   toperson: function () {
+   toperson: function (event) {
+      var headerImg = event.currentTarget.dataset.headerimg
+      console.log(headerImg)
       wx.navigateTo({
-         url: '../person/person',
+         url: '../person/person?img=' + headerImg,
       })
    },
-   toQuestion: function () {
+   toQuestion: function (e) {
+      //传值
+      var quest = e.currentTarget.dataset.question
+      console.log(quest)
       wx.navigateTo({
-         url: '../question/question',
+         url: '../question/question?question='+quest,
       })
    },
-   toAnswer: function () {
+   toAnswer: function (e) {
+      var item = e.currentTarget.dataset.content
+      console.log(item)
       wx.navigateTo({
-         url: '../answer/answer',
+         url: '../answer/answer?question=' + item.question + '&img=' + item.feed_source_img,
       })
    },
    onLoad: function () {

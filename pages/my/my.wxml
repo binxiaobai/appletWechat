@@ -1,8 +1,8 @@
 
 <view class='my'>
-   <view class='myheader'>
+   <view class='myheader' bindtap='changeUserInfo'>
       <view class='myimage'>
-         <image src="{{userImg}}" bindtap='chengeimg'></image>
+         <image src="{{userImg}}" catchtap='chengeimg'></image>
       </view>
       <view class='myname'>
          <view class='name'>{{userName}}</view>
