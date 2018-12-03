@@ -42,7 +42,7 @@
                            啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
                            </text>
                         </view>
-                        <view class='concern'>1231赞同 | 12412评论 </view>
+                        <!-- <view class='concern'>1231赞同 | 12412评论 </view> -->
                       </view>
                       <view class='box1'>
                         <view class='user' bindtap='toperson'>
@@ -57,7 +57,7 @@
                            啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
                            </text>
                         </view>
-                        <view class='concern'>1231赞同 | 12412评论 </view>
+                        <!-- <view class='concern'>1231赞同 | 12412评论 </view> -->
                       </view>
                       <view class='box1'>
                         <view class='user' bindtap='toperson'>
@@ -72,7 +72,7 @@
                            啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
                            </text>
                         </view>
-                        <view class='concern'>1231赞同 | 12412评论 </view>
+                        <!-- <view class='concern'>1231赞同 | 12412评论 </view> -->
                       </view>
                       <view class='box1'>
                         <view class='user' bindtap='toperson'>
@@ -87,7 +87,7 @@
                            啊沙发沙发舒服1啊沙发沙发是嘎嘎不V为滚吧是的好吧随便吧
                            </text>
                         </view>
-                        <view class='concern'>1231赞同 | 12412评论 </view>
+                        <!-- <view class='concern'>1231赞同 | 12412评论 </view> -->
                       </view>
                 </scroll-view>
                 </view>

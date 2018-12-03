@@ -1,12 +1,12 @@
 
 <view class='my'>
-   <view class='myheader' bindtap='changeUserInfo'>
+   <view class='myheader' bindtap='changeUserInfo' data-img="{{userImg}}" data-name="{{userName}}" data-indi="{{userIndi}}">
       <view class='myimage'>
          <image src="{{userImg}}" catchtap='chengeimg'></image>
       </view>
       <view class='myname'>
          <view class='name'>{{userName}}</view>
-         <view class='myinfo'>不要问我从哪里来，我的故乡在远方！</view>
+         <view class='myinfo'>{{userIndi}}</view>
       </view>
    </view>
    <!-- //列表 -->

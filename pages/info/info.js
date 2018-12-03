@@ -8,7 +8,8 @@ Page({
       activeIndex: 0,
       sliderOffset: 0,
       sliderLeft: 0,
-      conlist: []
+      conlist: [],
+      showcon:['嗯、好的', '恩恩，加油', '哈？', '不懂耶', '你教我好不好', '亲亲我', '抱抱我', '举高高',  '我陪你吧', '拒绝ta']
    },
    onLoad: function () {
       var that = this;
@@ -43,5 +44,13 @@ Page({
          sliderOffset: e.currentTarget.offsetLeft,
          activeIndex: e.currentTarget.id
       });
+   },
+   //关注
+   toconcren: function () {
+      var rand = Math.floor(Math.random()*10)
+      console.log(rand)
+      wx.showToast({
+         title: this.data.showcon[rand]
+      })
    }
 });

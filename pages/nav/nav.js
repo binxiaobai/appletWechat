@@ -46,9 +46,14 @@ Page({
       });
       
    },
-   toQuestion: function () {
+   toQuestion: function (e) {
+      //传值
+      var item = e.currentTarget.dataset.item
+      var question = item.question
+      var img = item.feed_source_img
+      console.log(item)
       wx.navigateTo({
-         url: '../question/question',
+         url: '../question/question?question=' + question+'&img='+img,
       })
    },
    toAnswer: function () {

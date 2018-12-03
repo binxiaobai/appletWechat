@@ -23,15 +23,9 @@ Page({
     */
    onLoad: function () {
       let that = this
-      wx.getUserInfo({
-         success: function (e) {
-            let header = e.userInfo.avatarUrl
             that.setData({
-               headRight: header
+               headRight: app.globalData.userImg
             })
-         }
-      })
-
    },
    converSation: function (e) {
       let that = this

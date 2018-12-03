@@ -31,7 +31,7 @@
                 </view>
             </view>
              <view class='quesImg'>
-                <image src="../../images/icon9.jpeg" ></image>
+                <image src="{{img}}" ></image>
              </view>
         </view>
         <view class="que-operate flex-wrp">

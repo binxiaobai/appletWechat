@@ -177,7 +177,7 @@
                 <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
                   <scroll-view>
                      <view class='notice'>
-                      <view class='notice_list' wx:for="{{conlist}}" style='font-size:{{item.con_fsize}}; background-color:#{{item.con_bgcolor}}; color:{{item.con_color}}' wx:key="item.con_id">
+                      <view class='notice_list' wx:for="{{conlist}}" style='font-size:{{item.con_fsize}}; background-color:#{{item.con_bgcolor}}; color:{{item.con_color}}' wx:key="item.con_id" bindtap='toconcren'>
                         {{item.con_topic}}
                         </view>
                      </view>

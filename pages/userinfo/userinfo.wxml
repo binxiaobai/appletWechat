@@ -21,7 +21,7 @@
    <view class='right'>鸟不拉屎的天堂</view>
    </view>
  <!-- /输入昵称文本框/ -->
- <view class='textbox' wx:if="{{nameFlag}}"> 
+ <view class='textbox' wx:if="{{nameFlag}}" data-name="{{name}}"> 
    <view class='text'>
       <view class="weui-cells__title">昵称</view>
          <view class="weui-cells weui-cells_after-title">

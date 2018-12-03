@@ -21,6 +21,9 @@ App({
             success: res => {
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
+               this.globalData.userImg = res.userInfo.avatarUrl
+               this.globalData.userName = res.userInfo.nickName
+               console.log("全局变量开始")
 
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
@@ -33,7 +36,10 @@ App({
       }
     })
   },
+  //全局变量
   globalData: {
-    userInfo: null
+    userInfo: null,
+    uesrImg: '',
+    userName: ''
   }
 })

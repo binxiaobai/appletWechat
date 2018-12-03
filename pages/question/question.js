@@ -8,7 +8,8 @@ Page({
       concern:'关注',
       con_color:'#52C980',
       flag: 1,
-      fromquest:''
+      fromquest:'',
+      img:''
    },
    // 关注
    concern: function () {
@@ -37,9 +38,11 @@ Page({
       var that = this
       //调用应用实例的方法获取全局数据
       var fromquest = option.question
+      var img = option.img
       console.log(fromquest)
       that.setData({
-         fromquest: fromquest
+         fromquest: fromquest,
+         img: img
       })
       wx.getUserInfo({
          success: function (e) {

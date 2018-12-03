@@ -4,7 +4,8 @@ Page({
    data: {
       userInfo: [],
       userImg: [],
-      userName: ''
+      userName: 'bingo',
+      userIndi:'在一个需要方向，需要梦想，需要眼泪'
    },
    //事件处理函数
    //去书架
@@ -14,10 +15,12 @@ Page({
       })
    },
    //修改个人信息
-  changeUserInfo: function () {
-     console.log("chasdh")
+   changeUserInfo: function (event) {
+     var userImg = event.currentTarget.dataset.img
+      var userName = event.currentTarget.dataset.name
+      var userIndi = event.currentTarget.dataset.indi
      wx.navigateTo({
-        url: '../userinfo/userinfo',
+        url: '../userinfo/userinfo?img=' + userImg+' &name='+userName+'&indi='+userIndi,
      })
   } ,
    bindViewTap: function() {
@@ -32,10 +35,9 @@ Page({
          sizeType: ['compressed'], // original 原图，compressed 压缩图，默认二者都有
          sourceType: ['album', 'camera'],
          success: function(res) {
-            const tempFilePaths = res.tempFilePaths
-            console.log(tempFilePaths)
+            app.globalData.userImg = res.tempFilePaths
             that.setData({
-               userImg: tempFilePaths
+               userImg: app.globalData.userImg
             })
 
          },
@@ -61,18 +63,38 @@ Page({
       })
    },
 
-   onLoad: function(option) {
+   onLoad: function(options) {
       let that = this
-      wx.getUserInfo({
-         success: function(e) {
-            let userImg = e.userInfo.avatarUrl
-            let userName = e.userInfo.nickName
+      var userImg = options.img
+      var userIndi = options.indi
+      var userName = options.name
+      if (typeof (userImg) == "string" && typeof (userIndi) == "string" && typeof (userName) == "string") {
+         that.setData({
+            userImg: userImg,
+            userIndi: userIndi,
+            userName: userName
+         })
+      }else{
+      // wx.getUserInfo({
+      //    success: function(e) {
+      //       // let userImg = e.userInfo.avatarUrl
+      //       // let userName = e.userInfo.nickName
+      //       // that.setData({
+      //       //    userImg: userImg,
+      //       //    userName: userName
+           
+      //       // })
+      //        //全局变量重构
+     
             that.setData({
-               userImg: userImg,
-               userName: userName
+               userImg: app.globalData.userImg,
+               userName: app.globalData.userName
             })
-         }
-      }) 
+      //    }
+      // }) 
+     
+         
+      }
    },
    //分享功能
    onShareAppMessage: function() {

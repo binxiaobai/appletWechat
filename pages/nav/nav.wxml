@@ -32,7 +32,7 @@
                            <view class='text'>{{item.feed_source_name}}</view>
                            <view class='more'><image src='../../images/more.png'></image></view>
                         </view>
-                     <view class='question' bindtap='toQuestion'>{{item.question}}</view>
+                     <view class='question' bindtap='toQuestion' data-item="{{item}}">{{item.question}}</view>
                      <view class='description' bindtap='toAnswer'>
                         <text>
                         {{item.answer_ctnt}}

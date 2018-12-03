@@ -1,23 +1,24 @@
+var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-     headerImg: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2686229074,279277785&fm=26&gp=0.jpg',
+     headerImg: '',
      nameFlag: false,
-     name:'bingo',
+     name:'',
      indiFlag: false,
-     indi:'不要问我从哪里来，我的故乡在远方，不要问我从哪里来，我的故乡在远方'
+     indi:''
   },
  //改变头像
    changeImg:function () {
       var that = this
       wx.chooseImage({
          success: function(res) {
-            var headerImg = res.tempFilePaths
+            app.globalData.userImg = res.tempFilePaths
             that.setData({
-               headerImg: headerImg
+               headerImg: app.globalData.userImg
             })
          },
       })
@@ -30,9 +31,9 @@ Page({
    },
    //修改名字
    newName: function (e) {
-      var newName = e.detail.value
+      app.globalData.userName = e.detail.value
       this.setData({
-         name: newName
+         name: app.globalData.userName
       })
    },
    //关闭修改窗口
@@ -55,7 +56,8 @@ Page({
       })
    },
    //关闭修改窗口
-   closeTips1: function () {
+   closeTips1: function (e) {
+      
       this.setData({
          indiFlag: false
       })
@@ -64,7 +66,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+     console.log(options)
+     var name = app.globalData.userName
+     var headerImg = app.globalData.userImg
+    var indi = options.indi
+    this.setData({
+       name: name,
+       headerImg: headerImg,
+       indi: indi
+    })
   },
 
   /**
@@ -91,9 +101,11 @@ Page({
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function (e) {
+ 
     wx.reLaunch({
-       url: '../my/my?img=' + headerImg+'&name='+name+'&indi='+indi,
+      //  url: '../my/my?img=' + this.data.headerImg+'&name='+this.data.name+'&indi='+this.data.indi,
+       url: '../my/my?indi=' + this.data.indi,
     })
   },
 
