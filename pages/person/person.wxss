@@ -132,3 +132,9 @@
    font-size: 12px;
    
 }
+.kuang {
+   height: 530px;
+}
+.scrollh {
+   height:617px;
+}

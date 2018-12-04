@@ -1,5 +1,10 @@
 {
   "pages":[
+     "pages/nav/nav",
+     "pages/gril/gril",
+     
+     "pages/eat/eat",
+     
       "pages/my/my",
      "pages/index/index",
       "pages/person/person",
@@ -8,13 +13,11 @@
       "pages/answer/answer",
      "pages/chat/chat",
      "pages/info/info",
-    "pages/nav/nav",
+    
     "pages/logs/logs",
     "pages/question/question",
     "pages/photo/photo",
     "pages/robot/robot"
-   
-   
   ],
   "window":{
     "backgroundTextStyle":"light",

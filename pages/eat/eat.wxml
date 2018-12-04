@@ -1,0 +1,40 @@
+<view class='header'>美食不可辜负</view>
+<view class='eat-box'>
+   <view class='left'>
+   <view class='item'>
+      <image src='http://img2.imgtn.bdimg.com/it/u=798652075,3010733911&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是是描长</view>
+    </view>
+    <view class='item'>
+      <image src='http://img0.imgtn.bdimg.com/it/u=204304400,1192091908&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是是描长</view>
+    </view>
+    <view class='item'>
+      <image src='http://img1.imgtn.bdimg.com/it/u=181513836,2114423935&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述描述的描描述的好长是是是描述的好长是是是描好长是是是描的好长是是是描长</view>
+    </view>
+    <view class='item'>
+      <image src='http://img5.imgtn.bdimg.com/it/u=2103610795,2273284292&fm=200&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是是描长是是是描是描长</view>
+    </view>
+   </view>
+   <view class='right'>
+      <view class='item'>
+      <image src='http://img4.imgtn.bdimg.com/it/u=974784368,12895382&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是的好长描述的好长描述的好长</view>
+    </view>
+    <view class='item'>
+      <image src='http://img4.imgtn.bdimg.com/it/u=1779373866,75247768&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是的好长描述的好长</view>
+    </view>
+    <view class='item'>
+      <image src='http://img4.imgtn.bdimg.com/it/u=2388555871,1418026725&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是是描述是描述的好描述是描述的好长的好长描述描述是描述的好长的好长描述长的好长描述的好长描述的好长</view>
+    </view>
+     <view class='item'>
+      <image src='http://img4.imgtn.bdimg.com/it/u=2388555871,1418026725&fm=26&gp=0.jpg'></image>
+      <view class='info'>这个是描述的好长是是是描述是描述的好描述是描述的好长的好长描述描述是描述的好长的好长描述长的好长描述的好长描述的好长</view>
+    </view>
+   
+   </view>
+</view>

@@ -1,0 +1,41 @@
+.header {
+   width: 100%;
+   height: 35px;
+   background:linear-gradient(#0068C4,white);
+   position: fixed;
+   box-shadow: 1px 1px 3px #dcdcdc;
+   text-align: center;
+   top:0;
+   left: 0;
+
+}
+.box {
+   margin-top:35px;
+}
+.item {
+   width: 100%;
+   padding-bottom: 10px;
+   border: 1px solid #dcdcdc;
+}
+.tag {
+   line-height: 20px;
+   margin-top:5px;
+   margin-bottom: 10px;
+   margin-left: 2.5%;
+   font-size: 16px;
+}
+.img {
+   width: 100%;
+}
+.img image {
+   width: 30%;
+   height: 100px;
+   display: inline-block;
+   margin-left: 2.5%;
+   box-shadow: 1px 1px 2px #dcdcdc;
+}
+.info {
+   margin-top:5px;
+   margin-left: 2.5%;
+   font-size: 12px;
+}

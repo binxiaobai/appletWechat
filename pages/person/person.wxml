@@ -2,6 +2,7 @@
   <view class='box_bg' bindtap='change_bg'>
       <image src="{{bgImg}}"></image>
   </view>
+  
    <view class='per_info'>
      <view class='sel_info'>
        <image src='{{heImg}}' catchtap='change_header'></image>
@@ -91,8 +92,12 @@
                       </view>
                 </scroll-view>
                 </view>
+              
                 <!-- /创作/ -->
+                
                 <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                    <view class='kuang'>
+                 <scroll-view class='scrollh' scroll-y="true">
                      <view class='box1'>
                         <view class='user' bindtap='toperson'>
                         <view class='user-img' ><image src='../../images/icon8.jpg'></image></view>
@@ -208,7 +213,8 @@
                          <view class='dianzan'>点赞：100</view>
                          </view>
                       </view>
-                
+                      </scroll-view>
+                    </view>
                 </view>
                 <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
                  <view class='art'>关于梦遥不可及</view>

@@ -5,7 +5,7 @@ Page({
    data: {
       tabs: ["推荐", "圆桌", "热门","收藏"],
       // grids: ["吃饭","睡觉","打豆豆","约跑","聊骚","打游戏"],
-      grids: [],
+    //  grids: [],
       rangs: [],
       hots: [],
       current: true,
@@ -30,7 +30,7 @@ Page({
       //调用应用实例的方法获取全局数据
       this.getData();
       //调用获得icons
-      this.getIcon();
+     // this.getIcon();
       //调用获得rangs
       this.getRang();
       //调用获得hots

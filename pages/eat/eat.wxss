@@ -1,0 +1,49 @@
+.header {
+   width: 100%;
+   height: 35px;
+   background:linear-gradient(#0068C4,white);
+   position: fixed;
+   box-shadow: 1px 1px 3px #dcdcdc;
+   text-align: center;
+   top:0;
+   left: 0;
+}
+.eat-box {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   margin-top: 35px;
+}
+.left {
+   width: 45%;
+   margin-left: 3.33%;
+   float: left;
+   margin-top: 5px;
+}
+.right {
+   float: right;
+   width: 45%;
+   margin-right: 3.33%;
+  
+   margin-top: 5px;
+}
+.left>.item{
+ padding-bottom: 6px;
+ margin-bottom: 5px;
+ background-color: green;
+}
+.right>.item{
+ padding-bottom: 6px;
+ margin-bottom: 5px;
+  background-color: yellow;
+}
+.item image {
+   width: 100%;
+   height: 120px;
+   box-shadow: 1px 1px 2px #cccc;
+   box-sizing: border-box;
+}
+.info {
+   font-size: 14px;
+   
+}

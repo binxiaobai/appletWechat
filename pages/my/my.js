@@ -75,26 +75,18 @@ Page({
             userName: userName
          })
       }else{
-      // wx.getUserInfo({
-      //    success: function(e) {
-      //       // let userImg = e.userInfo.avatarUrl
-      //       // let userName = e.userInfo.nickName
-      //       // that.setData({
-      //       //    userImg: userImg,
-      //       //    userName: userName
-           
-      //       // })
-      //        //全局变量重构
-     
+           //  全局变量重构
+         console.log(app.globalData.userImg, app.globalData.userName)
+         var userI =  app.globalData.userImg
+          var userN = app.globalData.userName
             that.setData({
-               userImg: app.globalData.userImg,
-               userName: app.globalData.userName
+               userImg: userI,
+               userName: userN
             })
-      //    }
-      // }) 
-     
+            console.log("zhesgionlod")
+         }
          
-      }
+     
    },
    //分享功能
    onShareAppMessage: function() {

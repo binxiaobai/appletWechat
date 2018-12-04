@@ -24,6 +24,7 @@ App({
                this.globalData.userImg = res.userInfo.avatarUrl
                this.globalData.userName = res.userInfo.nickName
                console.log("全局变量开始")
+               console.log(this.globalData.userName)
 
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况

@@ -48,10 +48,46 @@
                   <view class="page">
                      <view class="page__bd">
                         <view class="weui-grids">
-                              <block wx:for="{{grids}}"  wx:key="item.icon_id">
-                                 <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                              <!-- <block wx:for="{{grids}}"  wx:key="item.icon_id">
+                                 <navigator url="../eat/eat" class="weui-grid" hover-class="weui-grid_active">
                                     <image class="weui-grid__icon" src='{{item.icon_url}}' />
                                     <view class="weui-grid__label">{{item.icon_name}}</view>
+                                 </navigator>
+                              </block> -->
+                              <block >
+                                 <navigator url="../eat/eat" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3503321186,3211953220&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">吃饭</view>
+                                 </navigator>
+                              </block>
+                                  <block >
+                                 <navigator url="../sleep/sleep" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2324301055,4213301839&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">睡觉</view>
+                                 </navigator>
+                              </block>
+                                  <block >
+                                 <navigator url="../bean/bean" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=737159794,3710034186&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">打豆豆</view>
+                                 </navigator>
+                              </block>
+                                  <block >
+                                 <navigator url="../run/run" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2188513369,1558105471&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">约跑</view>
+                                 </navigator>
+                              </block>
+                                  <block >
+                                 <navigator url="../gril/gril" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=622714212,2208723445&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">泡妞</view>
+                                 </navigator>
+                              </block>
+                                  <block >
+                                 <navigator url="../game/game" class="weui-grid" hover-class="weui-grid_active">
+                                    <image class="weui-grid__icon" src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3549871866,924113215&fm=26&gp=0.jpg' />
+                                    <view class="weui-grid__label">打游戏</view>
                                  </navigator>
                               </block>
                         </view>
