@@ -1,13 +1,15 @@
 {
   "pages":[
      "pages/index/index",
+     "pages/bean/bean",
+     
      "pages/nav/nav",
      "pages/game/game",
      
      "pages/sleep/sleep",
      
      "pages/gril/gril",
-     "pages/bean/bean",
+     
      "pages/eat/eat",
      "pages/run/run",
       "pages/my/my",

@@ -1,1 +1,17 @@
 <view class='header'>豆豆不可辜负</view>
+<view class="section">
+  <movable-area style="height:{{height}}px; width: 100%; background-color:{{bgColor}}" scale-area>
+      <movable-view style="height: 50px; width: 50px; background: blue;" direction="all" bindchange="onChange" bindscale="onScale" scale scale-min="0.5" scale-max="4" scale-value="2" x='29' y='105'>
+     </movable-view>
+     <movable-view style="height: 20px; width: 20px; background: red;" direction="all" bindchange="onChange1" bindscale="onScale1" scale scale-min="0.5" scale-max="4" scale-value="2" x='248' y='384'>
+      </movable-view>
+       <movable-view style="height: 20px; width: 50px; background: orange;" direction="all" bindchange="onChange2" bindscale="onScale2" scale scale-min="0.5" scale-max="4" scale-value="2" x='139' y='317'>
+      </movable-view>
+        <movable-view style="height:0;width:0;border-width:0 30px 30px;border-style:solid;border-color:transparent transparent #fc0;" direction="all" bindchange="onChange3" bindscale="onScale3" scale scale-min="0.5" scale-max="4" scale-value="2" x='160' y='180'>
+      </movable-view>
+        <movable-view style="height:30px;width:30px; border-radius:30px;background:green;" direction="all" bindchange="onChange4" bindscale="onScale4" scale scale-min="0.5" scale-max="4" scale-value="2" x='61' y='240'>
+      </movable-view>
+        <movable-view style="height:20px;width:20px; background:#8552a1" direction="all" bindchange="onChange5" bindscale="onScale5" scale scale-min="0.5" scale-max="4" scale-value="2" x='174' y='58'>
+      </movable-view>
+   </movable-area>
+</view>

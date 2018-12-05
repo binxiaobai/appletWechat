@@ -1,65 +1,62 @@
 Page({
+   data: {
+      x: 0,
+      y: 0,
+      height:'',
+      bgColor:'#dcdcdc'
+   },
+   onLoad: function () {
+      var that = this
+      wx.getSystemInfo({
+         success: function(res) {
+            console.log(res)
+            var heigh = parseInt(res.windowHeight) - 35;
+            that.setData({
+               height: heigh
+            })
+         },
+      })
+   },
+   onChange: function (e) {
+     var one = e.detail.x
+     console.log(one)
+     if(one ==42) {
+        wx.showToast({
+           title: 'bingo',
+        })
+     }
+   },
+   onScale: function (e) {
+      console.log(e.detail)
+   },
+    onChange1: function (e) {
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
-    
-  },
+   },
+   onScale1: function (e) {
+     // console.log(e.detail)
+   },
+    onChange2: function (e) {
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    
-  },
+   },
+   onScale2: function (e) {
+     // console.log(e.detail)
+   },
+    onChange3: function (e) {
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
+   },
+   onScale3: function (e) {
+     // console.log(e.detail)
+   },
+    onChange4: function (e) {
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    
-  },
+   },
+   onScale4: function (e) {
+      //console.log(e.detail)
+   },
+    onChange5: function (e) {
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
-  }
+   },
+   onScale5: function (e) {
+      //console.log(e.detail)
+   }
 })

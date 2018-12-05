@@ -8,3 +8,9 @@
    top:0;
    left: 0;
 }
+.section {
+   height: 100%;
+   width: 100%;
+   background-color: red;
+   margin-top: 35px;
+}
