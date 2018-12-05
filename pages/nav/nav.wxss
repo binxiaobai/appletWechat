@@ -93,7 +93,8 @@
 
 /* // */
 .container {
-   width:100%;
+   width:95%;
+   margin-left: 2.5%;
    overflow: hidden;
    padding: 0;
    }
@@ -172,7 +173,8 @@
    margin-top: 3px;
 }
 .collent {
-   width: 100%;
+   width: 90%;
+   margin-left:5%;
    height: 250px;
    overflow: hidden;
    box-shadow: 1px 1px 3px #cccc;

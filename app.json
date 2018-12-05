@@ -1,12 +1,17 @@
 {
   "pages":[
-     "pages/nav/nav",
-     "pages/gril/gril",
-     
-     "pages/eat/eat",
-     
-      "pages/my/my",
      "pages/index/index",
+     "pages/nav/nav",
+     "pages/game/game",
+     
+     "pages/sleep/sleep",
+     
+     "pages/gril/gril",
+     "pages/bean/bean",
+     "pages/eat/eat",
+     "pages/run/run",
+      "pages/my/my",
+     
       "pages/person/person",
      "pages/userinfo/userinfo",
       "pages/bookrack/bookrack",

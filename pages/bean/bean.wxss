@@ -1,0 +1,10 @@
+.header {
+   width: 100%;
+   height: 35px;
+   background:linear-gradient(#0068C4,white);
+   position: fixed;
+   box-shadow: 1px 1px 3px #dcdcdc;
+   text-align: center;
+   top:0;
+   left: 0;
+}

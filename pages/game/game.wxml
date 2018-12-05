@@ -1,0 +1,93 @@
+<view class='header'>游戏不可辜负</view>
+<view class='box'>
+   <view class='item'>
+      <view class='tag-img'>
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2745024295,2891701739&fm=27&gp=0.jpg"></image>
+      <view class='img-info'>zhegesho秒速游戏的</view>
+      </view>
+      <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3155928136,23109883&fm=27&gp=0.jpg"></image>
+         </view>
+      </view>
+         <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧，一段很长很长的文字，我还是粘贴复制吧一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1542702796,2703702142&fm=27&gp=0.jpg"></image>
+         </view>
+      </view>
+   </view>
+    <view class='item'>
+      <view class='tag-img'>
+      <image src="http://img1.imgtn.bdimg.com/it/u=1785136622,1698962423&fm=26&gp=0.jpg"></image>
+      <view class='img-info'>zhegesho秒速游戏的</view>
+      </view>
+      <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img5.imgtn.bdimg.com/it/u=1773603357,4164016866&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+         <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧，一段很长很长的文字，我还是粘贴复制吧一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img2.imgtn.bdimg.com/it/u=4136479436,3794839876&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+   </view>
+    <view class='item'>
+      <view class='tag-img'>
+      <image src="http://img0.imgtn.bdimg.com/it/u=1461170188,945890882&fm=26&gp=0.jpg"></image>
+      <view class='img-info'>zhegesho秒速游戏的</view>
+      </view>
+      <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img2.imgtn.bdimg.com/it/u=4136479436,3794839876&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+         <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧，一段很长很长的文字，我还是粘贴复制吧一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img5.imgtn.bdimg.com/it/u=4111232708,800252287&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+   </view>
+    <view class='item'>
+      <view class='tag-img'>
+      <image src="http://img3.imgtn.bdimg.com/it/u=291523054,1952599319&fm=26&gp=0.jpg"></image>
+      <view class='img-info'>zhegesho秒速游戏的</view>
+      </view>
+      <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img5.imgtn.bdimg.com/it/u=2568230417,2406982390&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+         <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧，一段很长很长的文字，我还是粘贴复制吧一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="http://img2.imgtn.bdimg.com/it/u=2737485120,1864495374&fm=26&gp=0.jpg"></image>
+         </view>
+      </view>
+   </view>
+    <view class='item'>
+      <view class='tag-img'>
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2745024295,2891701739&fm=27&gp=0.jpg"></image>
+      <view class='img-info'>zhegesho秒速游戏的</view>
+      </view>
+      <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3155928136,23109883&fm=27&gp=0.jpg"></image>
+         </view>
+      </view>
+         <view class='next-item'>
+         <view class='info'>听说要写一段很长很长的文字，我还是粘贴复制吧，一段很长很长的文字，我还是粘贴复制吧一段很长很长的文字，我还是粘贴复制吧</view>
+         <view class='img'>
+            <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1542702796,2703702142&fm=27&gp=0.jpg"></image>
+         </view>
+      </view>
+   </view>
+</view>

@@ -1,0 +1,77 @@
+<view class='header'>睡觉不可辜负</view>
+<view class='box'>
+   <view class='box-header'>热门讨论榜</view>
+   <scroll-view style='height:300px; padding-bottom:5px;' scroll-y="true">
+      <view class='item'>
+         <view class='number'>1</view>
+         <view class='info'>人失眠的十大原因？</view>
+      </view>
+      <view class='item1'>
+         <view class='number1'>2</view>
+         <view class='info1'>听雨声睡觉特别舒服？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>3</view>
+         <view class='info1'>三天三夜不睡觉，你抗造吗？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>4</view>
+         <view class='info1'>有没有那么一个问题让你彻夜难眠？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>5</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>6</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>7</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>8</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>9</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>10</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>11</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+       <view class='item1'>
+         <view class='number1'>12</view>
+         <view class='info1'>人失眠的十大原因？</view>
+      </view>
+   </scroll-view>
+   <view class='box-header'>热门精选</view>
+   <view class='hot'>
+      <view class='hot-item'>
+         <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2521283954,1784876377&fm=200&gp=0.jpg'></image>
+         <view class='hot-info'>超舒服的睡姿</view>
+      </view>
+      <view class='hot-item'>
+         <image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1507383501,774706530&fm=200&gp=0.jpg'></image>
+         <view class='hot-info'>超舒服的睡姿</view>
+      </view>
+      <view class='hot-item'>
+         <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1506450328,952057346&fm=26&gp=0.jpg'></image>
+         <view class='hot-info'>超舒服的睡姿</view>
+      </view>
+      <view class='hot-item'>
+         <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1140663166,4280869726&fm=26&gp=0.jpg'></image>
+         <view class='hot-info'>超舒服的睡姿</view>
+      </view>
+      <view class='hot-item'>
+         <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=656875996,245367133&fm=26&gp=0.jpg'></image>
+         <view class='hot-info'>超舒服的睡姿</view>
+      </view>
+    </view>
+</view>
